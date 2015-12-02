@@ -493,3 +493,1419 @@ Started GET "/assets/application.self.css?body=1" for ::1 at 2015-07-23 13:57:16
 
 
 Started GET "/assets/application.self.js?body=1" for ::1 at 2015-07-23 13:57:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/assets/rails.png" for 73.202.53.72 at 2015-11-22 18:02:13 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:02:19 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (36.8ms)
+Completed 200 OK in 239ms (Views: 212.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:02:19 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:02:19 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:02:19 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:02:20 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:03:19 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.7ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (12.1ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:03:19 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:19 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:19 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:19 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:03:21 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (22.2ms)
+Completed 200 OK in 69ms (Views: 66.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:03:22 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:22 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:22 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:22 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:03:24 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (22.7ms)
+Completed 200 OK in 55ms (Views: 51.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:03:24 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:24 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:24 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:24 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:03:29 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (1.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (17.3ms)
+Completed 200 OK in 48ms (Views: 43.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:03:29 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:29 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:29 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:03:29 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:04:54 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.6ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (10.2ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:04:54 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:04:54 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:04:54 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:04:54 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:04:57 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:04:57 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:04:57 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:04:57 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:04:57 +0000
+
+
+Started GET "/movies/1" for 73.202.53.72 at 2015-11-22 18:05:01 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered movies/show.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 29ms (Views: 22.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:01 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:01 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:01 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:01 +0000
+
+
+Started DELETE "/movies/1" for 73.202.53.72 at 2015-11-22 18:05:02 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BvheGtGrH4/aIy2eDvHTHHhCUnQiNnRkaaHuLjoWsY+ld5Zac8ZkMJHPQAjb2a6SgRbMg5mUjdC7gpXkRHsTUQ==", "id"=>"1"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 1]]
+  [1m[35m (6.9ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 12ms (ActiveRecord: 7.7ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:02 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:02 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:02 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:02 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:02 +0000
+
+
+Started GET "/movies/2" for 73.202.53.72 at 2015-11-22 18:05:04 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered movies/show.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:04 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:04 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:04 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:04 +0000
+
+
+Started DELETE "/movies/2" for 73.202.53.72 at 2015-11-22 18:05:06 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"EtfD7s0XZbiJLOKUhU1vEPjGRAEE2gshUSbWqGIUX6qxWAuub3oeB8LAjwJQZRKeAZLa9r948pWDBa1iHHn9dA==", "id"=>"2"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 2]]
+  [1m[35m (9.8ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 15ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:06 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (14.4ms)
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:06 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:06 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:06 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:06 +0000
+
+
+Started GET "/movies/3" for 73.202.53.72 at 2015-11-22 18:05:08 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered movies/show.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:08 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:08 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:08 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:08 +0000
+
+
+Started DELETE "/movies/3" for 73.202.53.72 at 2015-11-22 18:05:10 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"t2akIB/uyyXXkWZ/W6j04DjfyLgf6viu6RvWkZ+8XkgU6WxgvYOwmpx9C+mOgIluwYtWT6RIARo7OK1b4dH8lg==", "id"=>"3"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 3]]
+  [1m[35m (7.4ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 12ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:10 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (10.6ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:10 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:10 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:10 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:10 +0000
+
+
+Started GET "/movies/4" for 73.202.53.72 at 2015-11-22 18:05:13 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered movies/show.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:13 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:13 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:13 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:13 +0000
+
+
+Started DELETE "/movies/4" for 73.202.53.72 at 2015-11-22 18:05:14 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aG/VUSJgI8qy/gQLv+AL3T1HZwajGSiCOHpOxVfb3tnL4B0RgA1YdfkSaZ1qyHZTxBP58Ri70TbqWTUPKbZ8Bw==", "id"=>"4"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 4]]
+  [1m[35m (12.1ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 18ms (ActiveRecord: 12.8ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:14 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.9ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (12.9ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:14 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:14 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:14 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:14 +0000
+
+
+Started GET "/movies/5" for 73.202.53.72 at 2015-11-22 18:05:16 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered movies/show.html.haml within layouts/application (2.4ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:16 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:16 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:16 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:16 +0000
+
+
+Started DELETE "/movies/5" for 73.202.53.72 at 2015-11-22 18:05:17 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"QRcaJAodrTKA+1+wqttd7mTPz7UUnBzoGxCFmAoKbZvimNJkqHDWjcsXMiZ/8yBgnZtRQq8+5VzJM/5SdGfPRQ==", "id"=>"5"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 5]]
+  [1m[35m (9.5ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 15ms (ActiveRecord: 10.3ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:17 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (11.3ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:18 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:18 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:18 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:18 +0000
+
+
+Started GET "/movies/6" for 73.202.53.72 at 2015-11-22 18:05:19 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered movies/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:19 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:19 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:19 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:19 +0000
+
+
+Started DELETE "/movies/6" for 73.202.53.72 at 2015-11-22 18:05:21 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wGrYXsUD1Bn1+IJ5kTF9svBp4HzsEi6OU98n2/Nqf8hj5RAeZ26vpr4U7+9EGQA8CT1+i1ew1zqB/FwRjQfdFg==", "id"=>"6"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 6]]
+  [1m[35m (9.6ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 14ms (ActiveRecord: 10.3ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:21 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:21 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:21 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:21 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:21 +0000
+
+
+Started GET "/movies/7" for 73.202.53.72 at 2015-11-22 18:05:23 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 7]]
+  Rendered movies/show.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:23 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:23 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:23 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:23 +0000
+
+
+Started DELETE "/movies/7" for 73.202.53.72 at 2015-11-22 18:05:24 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rLOaf+SaLdXjYTh8o4Srv4PM9wMiwlkvnUrBysEY+KoPPFI/RvdWaqiNVep2rNYxephp9JlgoJtPaboAv3VadA==", "id"=>"7"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 7]]
+  [1m[35m (9.1ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 13ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:25 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (7.4ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:25 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:25 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:25 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:25 +0000
+
+
+Started GET "/movies/8" for 73.202.53.72 at 2015-11-22 18:05:26 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 8]]
+  Rendered movies/show.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:26 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:26 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:26 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:26 +0000
+
+
+Started DELETE "/movies/8" for 73.202.53.72 at 2015-11-22 18:05:27 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3IcV/nIe1NibMzPXKzXi7YRp+shMAn6V0jkGgMPx8+Z/CN2+0HOvZ9DfXkH+HZ9jfT1kP/eghyEAGn1KvZxROA==", "id"=>"8"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 8]]
+  [1m[35m (8.8ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 13ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:27 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:27 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:27 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:27 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:27 +0000
+
+
+Started GET "/movies/9" for 73.202.53.72 at 2015-11-22 18:05:29 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered movies/show.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:29 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:29 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:29 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:29 +0000
+
+
+Started DELETE "/movies/9" for 73.202.53.72 at 2015-11-22 18:05:30 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XHthzsTn9rb/f5octRWD3V355glPP61JbgAhnWnYE4n/9KmOZoqNCbST94pgPf5TpK14/vSdVP28I1pXF7WxVw==", "id"=>"9"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 9]]
+  [1m[35m (10.6ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 15ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:30 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (6.8ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:30 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:30 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:30 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:30 +0000
+
+
+Started GET "/movies/10" for 73.202.53.72 at 2015-11-22 18:05:32 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 10]]
+  Rendered movies/show.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:32 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:32 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:32 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:32 +0000
+
+
+Started DELETE "/movies/10" for 73.202.53.72 at 2015-11-22 18:05:33 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"sSElsojQ7Y8mP4OFaBZFS7aFbpkFEjD+0q1H6Ex2cTYSru3yKr2WMG3T7hO9PjjFT9Hwbr6wyUoAjjwiMhvT6A==", "id"=>"10"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 10]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 10]]
+  [1m[35m (12.4ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 16ms (ActiveRecord: 13.0ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:33 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:34 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:34 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:34 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:34 +0000
+
+
+Started GET "/movies/11" for 73.202.53.72 at 2015-11-22 18:05:40 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 11]]
+  Rendered movies/show.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:40 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:40 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:40 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:40 +0000
+
+
+Started DELETE "/movies/11" for 73.202.53.72 at 2015-11-22 18:05:42 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KUutnOJiVm5EbiVSlkx/FsRunviRxedWhkxNCKEIP1SKxGXcQA8t0Q+CSMRDZAKYPToADypnHuJUbzbC32Wdig==", "id"=>"11"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 11]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 11]]
+  [1m[35m (11.5ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 16ms (ActiveRecord: 12.2ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:42 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:42 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:42 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:42 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:42 +0000
+
+
+Started GET "/movies/12" for 73.202.53.72 at 2015-11-22 18:05:43 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 12]]
+  Rendered movies/show.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:43 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:43 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:43 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:43 +0000
+
+
+Started DELETE "/movies/12" for 73.202.53.72 at 2015-11-22 18:05:45 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+2dJkDfc9qtY0BfeZBZYuhxda3x4d73NitDLKGOp0iZY6IHQlbGNFBM8ekixPiU05Qn1i8PVRHlY87DiHcRw+A==", "id"=>"12"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 12]]
+  [1m[35m (10.2ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 14ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:45 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:45 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:45 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:45 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:45 +0000
+
+
+Started GET "/movies/13" for 73.202.53.72 at 2015-11-22 18:05:46 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 13]]
+  Rendered movies/show.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:46 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:46 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:46 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:46 +0000
+
+
+Started DELETE "/movies/13" for 73.202.53.72 at 2015-11-22 18:05:47 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dRPdyAmXacDcO/vZqwKb9wjBDZz96lzeDB5kijkJTpbWnBWIq/oSf5fXlk9+KuZ58ZWTa0ZIpWrePR9AR2TsSA==", "id"=>"13"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 13]]
+  [1m[35m (9.3ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 13ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:47 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (15.9ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:47 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:47 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:47 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:47 +0000
+
+
+Started GET "/movies/14" for 73.202.53.72 at 2015-11-22 18:05:48 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 14]]
+  Rendered movies/show.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:48 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:48 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:48 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:48 +0000
+
+
+Started DELETE "/movies/14" for 73.202.53.72 at 2015-11-22 18:05:50 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TlQrUvoXViT4esm/U9At2eXG73dstmpd1J7pAuEy++vt2+MSWHotm7OWpCmG+FBXHJJxgNcUk+kGvZLIn19ZNQ==", "id"=>"14"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 14]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 14]]
+  [1m[35m (11.6ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 15ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:50 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:50 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:50 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:50 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:50 +0000
+
+
+Started GET "/movies/15" for 73.202.53.72 at 2015-11-22 18:05:51 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"15"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 15]]
+  Rendered movies/show.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:51 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:51 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:51 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:51 +0000
+
+
+Started DELETE "/movies/15" for 73.202.53.72 at 2015-11-22 18:05:52 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vQBmNVpGc+nnhHb6okDRzrEf/AIWwyUxHqfc7fOrcHoej651+CsIVqxoG2x3aKxASEti9a1h3IXMhKcnjcbSpA==", "id"=>"15"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 15]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 15]]
+  [1m[35m (10.1ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 14ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:52 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 29ms (Views: 26.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:53 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:53 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:53 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:53 +0000
+
+
+Started GET "/movies/16" for 73.202.53.72 at 2015-11-22 18:05:54 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"16"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 16]]
+  Rendered movies/show.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:54 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:54 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:54 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:54 +0000
+
+
+Started DELETE "/movies/16" for 73.202.53.72 at 2015-11-22 18:05:56 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rmKpboP46YPCowzrMosLlWMnOlB0MaB0JdCNSwRClvgN7WEuIZWSPIlPYX3no3YbmnOkp8+TWcD38/aBei80Jg==", "id"=>"16"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 16]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 16]]
+  [1m[35m (10.1ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 14ms (ActiveRecord: 10.8ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:56 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:56 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:56 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:56 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:56 +0000
+
+
+Started GET "/movies/17" for 73.202.53.72 at 2015-11-22 18:05:57 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 17]]
+  Rendered movies/show.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:57 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:57 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:57 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:57 +0000
+
+
+Started DELETE "/movies/17" for 73.202.53.72 at 2015-11-22 18:05:58 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Z2y1AmRk21SjAFmqfbbCPFv5m9XoishNxxlvsYOdPtbE431Cxgmg6+jsNDyonr+yoq0FIlMoMfkVOhR7/fCcCA==", "id"=>"17"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 17]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 17]]
+  [1m[35m (9.8ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 14ms (ActiveRecord: 10.4ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:05:58 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:05:59 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:59 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:59 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:05:59 +0000
+
+
+Started GET "/movies/18" for 73.202.53.72 at 2015-11-22 18:06:00 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"18"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 18]]
+  Rendered movies/show.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:06:00 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:00 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:00 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:00 +0000
+
+
+Started DELETE "/movies/18" for 73.202.53.72 at 2015-11-22 18:06:01 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"noTDWM1UwEnBJ+hfmC72v2Lh2fl4zYzbd7H+uf2esug9CwsYbzm79orLhclNBosxm7VHDsNvdW+lkoVzg/MQNg==", "id"=>"18"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 18]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 18]]
+  [1m[35m (10.5ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 15ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:06:01 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:06:01 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:01 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:01 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:01 +0000
+
+
+Started GET "/movies/19" for 73.202.53.72 at 2015-11-22 18:06:03 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 19]]
+  Rendered movies/show.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:06:03 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:03 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:03 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:03 +0000
+
+
+Started DELETE "/movies/19" for 73.202.53.72 at 2015-11-22 18:06:04 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SWulx9DYOd8Cm1hBu261vb11MKe37xzOSi+3byeK+r/q5G2HcrVCYEl3NdduRsgzRCGuUAxN5XqYDMylWedYYQ==", "id"=>"19"}
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 19]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 19]]
+  [1m[35m (9.7ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 14ms (ActiveRecord: 10.3ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:06:04 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:06:04 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:04 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:04 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:04 +0000
+
+
+Started GET "/movies/20" for 73.202.53.72 at 2015-11-22 18:06:05 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mMovie Load (0.2ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1  [["id", 20]]
+  Rendered movies/show.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:06:05 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:05 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:05 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:05 +0000
+
+
+Started DELETE "/movies/20" for 73.202.53.72 at 2015-11-22 18:06:07 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zRPGG2WOksyWz/S0WWZ99uIjHspxPxDXn/NdseNQCAFunA5bx+Ppc90jmSKMTgB4G3eAPcqd6WNN0CZ7nT2q3w==", "id"=>"20"}
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT 1[0m  [["id", 20]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 20]]
+  [1m[35m (10.1ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 15ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:06:07 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:06:07 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:07 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:07 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:07 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:06:10 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:06:10 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:10 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:10 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:10 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:06:58 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:06:58 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:58 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:58 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:06:58 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:07:03 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (4.6ms)
+Completed 200 OK in 26ms (Views: 24.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:07:03 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:03 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:03 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:03 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:07:06 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:07:06 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:06 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:06 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:06 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:07:07 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:07:07 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:07 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:07 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:07 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:07:08 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:07:08 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:08 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:08 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:07:08 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:19:30 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:19:30 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:19:30 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:19:30 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:19:30 +0000
+
+
+Started GET "/assets/rails.png" for 73.202.53.72 at 2015-11-22 18:22:35 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:22:44 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:22:44 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:22:44 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:22:44 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:22:44 +0000
+
+
+Started GET "/movies/new" for 73.202.53.72 at 2015-11-22 18:22:47 +0000
+Processing by MoviesController#new as HTML
+  Rendered movies/new.html.haml within layouts/application (31.3ms)
+Completed 200 OK in 50ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:22:47 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:22:47 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:22:47 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:22:47 +0000
+
+
+Started POST "/movies" for 73.202.53.72 at 2015-11-22 18:22:52 +0000
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o/6dUwCaqfGov89vm/7YyGMgj4FYi0wx4a/N5dtV8IgAcVUTovfSTuNTovlO1qVGmnQRduMptYUzjLYvpThSVg==", "movie"=>{"title"=>"Testing", "rating"=>"G", "release_date(1i)"=>"2015", "release_date(2i)"=>"11", "release_date(3i)"=>"22"}, "commit"=>"Save Changes"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Testing"], ["rating", "G"], ["release_date", "2015-11-22 00:00:00.000000"], ["created_at", "2015-11-22 18:22:52.863383"], ["updated_at", "2015-11-22 18:22:52.863383"]]
+  [1m[35m (9.6ms)[0m  commit transaction
+Redirected to https://saas-practice-cherryball.c9.io/movies
+Completed 302 Found in 19ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:22:52 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:22:53 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:22:53 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:22:53 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:22:53 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:28:30 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:28:30 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:28:30 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:28:30 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:28:30 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 18:28:34 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 18:28:35 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:28:35 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:28:35 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 18:28:35 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 22:37:53 +0000
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (2.4ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')
+  Rendered movies/index.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 47ms (Views: 42.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 22:37:53 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 22:37:53 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 22:37:54 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 22:37:54 +0000
+
+
+Started GET "/movies" for 73.202.53.72 at 2015-11-22 22:49:40 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.7ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."rating" IN ('G', 'PG', 'PG-13', 'NC-17', 'R')[0m
+  Rendered movies/index.html.haml within layouts/application (5.7ms)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self.css?body=1" for 73.202.53.72 at 2015-11-22 22:49:40 +0000
+
+
+Started GET "/assets/jquery_ujs.self.js?body=1" for 73.202.53.72 at 2015-11-22 22:49:40 +0000
+
+
+Started GET "/assets/jquery.self.js?body=1" for 73.202.53.72 at 2015-11-22 22:49:40 +0000
+
+
+Started GET "/assets/application.self.js?body=1" for 73.202.53.72 at 2015-11-22 22:49:40 +0000
