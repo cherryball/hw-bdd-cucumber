@@ -34,10 +34,10 @@ Scenario: restrict to movies with 'PG' or 'R' ratings
   When I press "Refresh"
   
   # enter step(s) to ensure that PG and R movies are visible
-  Then I should see ratgins_PG, ratings_R 
+  Then I should see movies of ratings: PG, R
 
   # enter step(s) to ensure that other movies are not visible
-  Then I should not see ratings_G, ratings_PG-13
+  Then I should not see movies of ratings: G, PG-13
   
 Scenario: all ratings selected
   # see assignment

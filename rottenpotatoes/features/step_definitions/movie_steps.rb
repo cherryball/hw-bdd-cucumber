@@ -42,13 +42,7 @@ Then /I should see all the movies/ do
   page.all('table#movies tr').count.should == 11
 end
 
-Then(/^I should see ratgins_PG, ratings_R$/) do
-  pending # express the regexp above with the code you wish you had
-end
 
-Then(/^I should not see ratings_G, ratings_PG\-(\d+)$/) do |arg1|
-  pending # express the regexp above with the code you wish you had
-end
 
 Then /^the "([^"]*)" checkbox(?: within (.*))? should be checked$/ do |label, parent|
   with_scope(parent) do
@@ -67,3 +61,16 @@ Then /^the (.*) checkbox should be (un)?checked$/ do |id, uncheck|
   end
 end
 
+Then /^I should see movies of ratings: (.*)$/ do |ratings|
+  ratings.split(",").each do |r|
+    r.strip!
+    page.assert_selector('#ratings_'+r)
+  end
+end
+
+Then /^I should not see movies of ratings: (.*)$/ do |ratings|
+  ratings.split(",").each do |r|
+    r.strip!
+    page.has_no_selector?('#ratings_'+r)
+  end
+end
